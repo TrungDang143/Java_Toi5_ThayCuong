@@ -38,24 +38,23 @@ public class B4_dkxe {
             }
         }
 
-            System.out.print("\nNhap so luong xe: ");
-            n = sc.nextInt();
-            ds = new Xe[n];
-            for (int i = 0; i<n; i++)
-            {
-                System.out.println("\n- Nhap thong tin xe "+(i+1));
-                ds[i] = new Xe();
-                ds[i].nhap();
-            }
-            tontai = true;
+        System.out.print("\nNhap so luong xe: ");
+        n = sc.nextInt();
+        ds = new Xe[n];
+        for (int i = 0; i<n; i++)
+        {
+            System.out.println("\n- Nhap thong tin xe "+(i+1));
+            ds[i] = new Xe();
+            ds[i].nhap();
+        }
+        tontai = true;
     }
     
     public static void inDS()
     {
-        
         if(tontai == false)
         {
-            System.out.println("--> Chua co danh sach x. Quay lai MENU");
+            System.out.println("--> Chua co danh sach xe. Quay lai MENU");
             return;
         }
         //"%25s %10s %-10d %-15.2f %-15.2f", chuxe, loaixe, dungtich, gt, thue());
