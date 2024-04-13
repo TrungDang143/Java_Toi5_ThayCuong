@@ -14,6 +14,9 @@ import java.util.Scanner;
 public class DSNV {
     public int n;
     public NhanVien[] ds;
+
+    public DSNV() {
+    }
     
     
     public void nhapSL(){
