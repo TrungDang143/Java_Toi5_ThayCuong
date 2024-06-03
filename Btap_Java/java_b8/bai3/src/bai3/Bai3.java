@@ -4,6 +4,8 @@
  */
 package bai3;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author ddtru
@@ -15,7 +17,9 @@ public class Bai3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        NewJFrame run = new NewJFrame();
+        run.setVisible(true);
+
     }
     
 }
